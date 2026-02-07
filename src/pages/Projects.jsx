@@ -35,6 +35,7 @@ const projects = [
       'Site developpé pour aider les jeunes passionnés à apprendre Python simplement.',
     impact: 'Aider les jeunes de mon pays à apprendre efficacement.',
     repo:'https://github.com/GLISH-prog/glishCodeApp.git',
+    demo:'https://glish-code.vercel.app/'
   },
   {
     title: "ToDo App",
