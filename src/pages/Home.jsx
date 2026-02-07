@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom'
 const highlights = [
   {
     title: 'Developpeur junior',
-    desc: 'Python, developpement web et environnement Linux pour creer des solutions utiles.',
+    desc: 'Python, développement web et environnement Linux pour créer des solutions utiles.',
   },
   {
     title: 'Site e-commerce',
-    desc: 'Conception d un site de vente en ligne avec pages produits et parcours client clair.',
+    desc: "Conception d'un site de vente en ligne avec pages produits et parcours client clair.",
   },
   {
     title: 'Site de judo',
-    desc: 'Site vitrine pour club de judo: infos, horaires et actualites.',
+    desc: 'Site vitrine pour club de judo: infos, horaires et actualités.',
   },
 ]
 
@@ -26,8 +26,8 @@ export default function Home() {
             <span className="block text-ember">Je transforme des idées en applications utiles.</span>
           </h1>
           <p className="mt-6 text-lg text-ink/80">
-            Je construis des experiences web modernes avec React, TailwindCss et Python. Ici tu
-            trouves mes projets academiques, mes competences et la maniere dont je travaille.
+            Je construis des expériences web modernes avec React, TailwindCss et Python. Ici tu
+            trouves mes projets academiques, mes compétences et la maniere dont je travaille.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
