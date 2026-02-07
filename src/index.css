@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: 220 20% 12%;
+  --ash: 45 40% 96%;
+  --ember: 10 80% 50%;
+  --sea: 200 90% 35%;
+  --glow: 45 90% 70%;
+}
+
+html.dark {
+  color-scheme: dark;
+  --ink: 45 40% 96%;
+  --ash: 220 20% 10%;
+  --ember: 10 85% 55%;
+  --sea: 200 85% 45%;
+  --glow: 45 90% 60%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Serif 4", serif;
+  background: radial-gradient(circle at top, rgba(255, 238, 210, 0.6), transparent 45%),
+    linear-gradient(130deg, #f8f4ef 0%, #fff7e6 45%, #f0f6ff 100%);
+  min-height: 100vh;
+}
+
+html.dark body {
+  background: radial-gradient(circle at top, rgba(20, 30, 50, 0.7), transparent 45%),
+    linear-gradient(135deg, #0b0f17 0%, #111827 50%, #0b1220 100%);
+}
+
+@layer utilities {
+  .bg-grain {
+    background-image: radial-gradient(rgba(10, 10, 10, 0.06) 1px, transparent 1px);
+    background-size: 6px 6px;
+  }
+
+  html.dark .bg-grain {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+  }
+
+  .glass {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(18px);
+    border: 1px solid rgba(15, 23, 42, 0.08);
+  }
+
+  html.dark .glass {
+    background: rgba(15, 23, 42, 0.7);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+  }
+}
