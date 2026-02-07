@@ -16,6 +16,7 @@ const projects = [
     description:
       'Calculatrice simple et fiable pour operations de base, avec interface graphique.',
     impact: 'Mise en pratique des bases de Python.',
+    repo:'https://github.com/GLISH-prog/calculette-python.git',
   },
   {
     title: 'Portfolio personnel',
@@ -24,6 +25,7 @@ const projects = [
     description:
       'Site vitrine pour presenter mon profil, mes competences et mes projets.',
     impact: 'Base evolutive pour futurs projets.',
+    repo:'https://github.com/GLISH-prog/glish-portfolio.git', 
   },
   {
     title: "Site d'apprentissage du langage Python",
@@ -32,6 +34,7 @@ const projects = [
     description:
       'Site developpé pour aider les jeunes passionnés à apprendre Python simplement.',
     impact: 'Aider les jeunes de mon pays à apprendre efficacement.',
+    repo:'https://github.com/GLISH-prog/glishCodeApp.git',
   },
   {
     title: "ToDo App",
