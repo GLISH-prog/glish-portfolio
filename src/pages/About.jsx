@@ -37,7 +37,7 @@ export default function About() {
           <h1 className="mt-4 font-display text-4xl font-semibold text-ink">Mon profil</h1>
           <p className="mt-4 text-lg text-ink/80">
             Je suis étudiant en génie informatique, passionné par la création de solutions
-            digitales utiles. J'aime travailler en equipe, apprendre des nouvelles technologies
+            digitales utiles. J'aime travailler en équipe, apprendre des nouvelles technologies
             et transformer des briefs flous en produits clairs.
           </p>
         </div>

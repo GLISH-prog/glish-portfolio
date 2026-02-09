@@ -2,17 +2,17 @@ const projects = [
   {
     title: 'Site e-commerce',
     stack: 'React, Tailwind CSS',
-    role: 'Developpeur front',
+    role: 'Développeur front',
     description:
       'Site e-commerce complet avec pages produits, panier et parcours utilisateur clair.',
-    impact: 'Projet academique principal en React.',
+    impact: 'Projet académique principal en React.',
     repo: 'https://github.com/groupe1-react/frontend.git',
     demo: 'https://techstore-88.vercel.app/',
   },
   {
     title: 'Calculatrice Python',
     stack: 'Python',
-    role: 'Developpeur',
+    role: 'Développeur',
     description:
       'Calculatrice simple et fiable pour operations de base, avec interface graphique.',
     impact: 'Mise en pratique des bases de Python.',
@@ -21,16 +21,16 @@ const projects = [
   {
     title: 'Portfolio personnel',
     stack: 'React, React Router, Tailwind',
-    role: 'Developpeur front',
+    role: 'Développeur front',
     description:
-      'Site vitrine pour presenter mon profil, mes competences et mes projets.',
+      'Site vitrine pour presenter mon profil, mes compétences et mes projets.',
     impact: 'Base evolutive pour futurs projets.',
     repo:'https://github.com/GLISH-prog/glish-portfolio.git', 
   },
   {
     title: "Site d'apprentissage du langage Python",
     stack: 'Reactjs,TailwindCss',
-    role: 'Developpeur front',
+    role: 'Développeur front',
     description:
       'Site developpé pour aider les jeunes passionnés à apprendre Python simplement.',
     impact: 'Aider les jeunes de mon pays à apprendre efficacement.',
@@ -40,7 +40,7 @@ const projects = [
   {
     title: "ToDo App",
     stack: 'Reactjs,TailwindCss',
-    role: 'Developpeur front',
+    role: 'Développeur front',
     description:
       'Simple projet pour la consolidation des concepts React et Tailwind.',
     impact: "Pas d'impact",
@@ -54,11 +54,11 @@ const cards = [
   },
   {
     label: 'Mon rythme',
-    value: 'Iteration rapide et tests frequents',
+    value: 'Itération rapide et tests frequents',
   },
   {
     label: "Ce que j'apprends",
-    value: 'Developpement web front-end',
+    value: 'Développement web front-end',
   },
 ]
 
@@ -68,10 +68,10 @@ export default function Projects() {
       <div className="glass rounded-3xl px-8 py-10 shadow-soft">
         <p className="text-sm uppercase tracking-[0.3em] text-ink/50">Projets</p>
         <h1 className="mt-4 font-display text-4xl font-semibold text-ink md:text-5xl">
-          Projets academiques sélectionnés
+          Projets académiques sélectionnés
         </h1>
         <p className="mt-4 text-lg text-ink/75">
-          Voici mes projets academiques. J'ajouterai les liens GitHub et les demos.
+          Voici mes projets académiques. J'ajouterai les liens GitHub et les demos.
         </p>
       </div>
 
@@ -100,7 +100,7 @@ export default function Projects() {
                   </a>
                 ) : (
                   <span className="cursor-not-allowed rounded-full border border-ink/10 bg-ash/40 px-4 py-2 text-sm font-semibold text-ink/40">
-                    Repo bientot
+                    Repo bientôt
                   </span>
                 )}
                 {project.demo ? (
@@ -114,7 +114,7 @@ export default function Projects() {
                   </a>
                 ) : (
                   <span className="cursor-not-allowed rounded-full border border-ink/10 bg-ash/40 px-4 py-2 text-sm font-semibold text-ink/40">
-                    Demo bientot
+                    Demo bientôt
                   </span>
                 )}
               </div>
@@ -131,7 +131,7 @@ export default function Projects() {
           ))}
           <div className="rounded-3xl bg-ember px-6 py-8 text-white shadow-soft">
             <p className="text-sm uppercase tracking-[0.3em] text-white/70">Resultats</p>
-            <p className="mt-3 text-2xl font-semibold">5 projets academiques</p>
+            <p className="mt-3 text-2xl font-semibold">5 projets académiques</p>
             <p className="mt-2 text-sm text-white/80">En cours d'évolution et de documentation.</p>
           </div>
         </aside>

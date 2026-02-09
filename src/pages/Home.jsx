@@ -1,8 +1,7 @@
 import { Link } from 'react-router-dom'
-
 const highlights = [
   {
-    title: 'Developpeur junior',
+    title: 'Développeur junior',
     desc: 'Python, développement web et environnement Linux pour créer des solutions utiles.',
   },
   {
@@ -27,7 +26,7 @@ export default function Home() {
           </h1>
           <p className="mt-6 text-lg text-ink/80">
             Je construis des expériences web modernes avec React, TailwindCss et Python. Ici tu
-            trouves mes projets academiques, mes compétences et la maniere dont je travaille.
+            trouves mes projets académiques, mes compétences et la maniere dont je travaille.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
@@ -66,7 +65,7 @@ export default function Home() {
           <ul className="mt-4 space-y-3 text-ink/80">
             <li>React, React Router, Tailwind, Vite</li>
             <li>Python</li>
-            <li>UI propre, composants reutilisables</li>
+            <li>UI propre, composants réutilisables</li>
           </ul>
           <div className="mt-8 rounded-2xl bg-ink px-6 py-6 text-ash">
             <p className="font-display text-2xl font-semibold">2026</p>
