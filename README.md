@@ -1,6 +1,6 @@
 #portfolio personnel développé  en reactjs et tailwindcss
 
-#techonologies utilisés :
+#techonologies utilisées :
 -Reactjs
 -TailwindCss
 
