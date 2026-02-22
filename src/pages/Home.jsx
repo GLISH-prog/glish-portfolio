@@ -26,7 +26,7 @@ export default function Home() {
           </h1>
           <p className="mt-6 text-lg text-ink/80">
             Je construis des expériences web modernes avec React, TailwindCss et Python. Ici tu
-            trouves mes projets académiques, mes compétences et la maniere dont je travaille.
+            trouves mes projets académiques, mes compétences et la manière dont je travaille.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link

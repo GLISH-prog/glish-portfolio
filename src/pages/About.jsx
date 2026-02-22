@@ -13,18 +13,18 @@ const skills = [
 const timeline = [
   {
     date: '2024 - 2026',
-    title: '2e annee en genie informatique',
+    title: '2e année en génie informatique',
     place: "Ecole Communautaire de l'enseignement supérieur(ECES)",
   },
   {
     date: '2025',
     title: 'Projet: site e-commerce React',
-    place: 'Projet academique',
+    place: 'Projet académique',
   },
   {
     date: '2026',
-    title: 'Stage recherche',
-    place: 'Cible: developpement web',
+    title: 'Stage recherché',
+    place: 'Cible: développement web',
   },
 ]
 

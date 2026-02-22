@@ -23,7 +23,7 @@ export default function App() {
   const [isDark, setIsDark] = useState(getInitialTheme)
 
   useEffect(() => {
-    const root = document.documentElement
+    const root = document.documentElement  //??
     if (isDark) {
       root.classList.add('dark')
       localStorage.setItem('theme', 'dark')

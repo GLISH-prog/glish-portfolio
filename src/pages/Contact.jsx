@@ -19,8 +19,8 @@ export default function Contact() {
         <p className="text-sm uppercase tracking-[0.3em] text-ink/50">Contact</p>
         <h1 className="mt-4 font-display text-4xl font-semibold text-ink">Discutons d'un projet</h1>
         <p className="mt-4 text-lg text-ink/80">
-          Tu peux me contacter pour un stage, un projet academique ou une collaboration.
-          Je reponds rapidement et j'aime clarifier les objectifs dès le debut.
+          Tu peux me contacter pour un stage, un projet académique ou une collaboration.
+          Je réponds rapidement et j'aime clarifier les objectifs dès le début.
         </p>
         <div className="mt-6 grid gap-4">
           {socials.map((item) => (
@@ -44,7 +44,7 @@ export default function Contact() {
         <p className="mt-4 text-ink/80">Stage 2026 · 2e année · Mobilité à discuter.</p>
           <div className="mt-6 rounded-2xl bg-ember px-6 py-6 text-white">
             <p className="text-sm uppercase tracking-[0.3em] text-white/70">Spécialité</p>
-            <p className="mt-2 text-lg font-semibold">Developpement web</p>
+            <p className="mt-2 text-lg font-semibold">Développement web</p>
           </div>
         </div>
 
